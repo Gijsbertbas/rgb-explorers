@@ -87,7 +87,7 @@ def generate_triplets():
     triplets = processing.triplets.generate_triplets()
     return json.jsonify(triplets)
 
-@app.route('/rbg_blending', methods = ['POST'])
+@app.route('/rgb_blending', methods = ['POST'])
 def rgb_blending():
     """
     Compute the rbg blendings for all the triplets from the data body.
