@@ -1,4 +1,20 @@
-*.pyc
-.DS_Store
+# Environments
+.env
+.venv
 env
 venv
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Zip files
+*.zip
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
